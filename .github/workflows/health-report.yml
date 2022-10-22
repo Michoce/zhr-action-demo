@@ -22,7 +22,7 @@ jobs:
 
           - username: ZJU_USERNAME2
             password: ZJU_PASSWORD2
-            dingtalk_token: DINGTALK_TOKEN2
+            dingtalk_token: DINGTALK_TOKEN
     steps:
       - name: 打卡
         uses: upupming/zhr-action@release
