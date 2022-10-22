@@ -20,9 +20,9 @@ jobs:
             cookie_eai_sess: ZJU_COOKIE
             dingtalk_token: DINGTALK_TOKEN
 
-         # - username: ZJU_USERNAME2
-         #  password: ZJU_PASSWORD2
-         #  dingtalk_token: DINGTALK_TOKEN2
+          - username: ZJU_USERNAME2
+            password: ZJU_PASSWORD2
+            dingtalk_token: DINGTALK_TOKEN2
     steps:
       - name: 打卡
         uses: upupming/zhr-action@release
